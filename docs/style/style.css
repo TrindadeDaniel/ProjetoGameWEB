@@ -1,0 +1,35 @@
+
+
+/* Estilos personalizados */
+body {
+            /*fundo com degrade*/
+            display: flex;
+            flex-direction: column;
+            background: hsl(240, 100%, 14%) 100%;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        .game-box {
+            max-width: 700px;/*largura máxima da caixa do jogo*/
+            margin: auto;/*centraliza a caixa do jogo*/
+            margin-top: 30px;/*espaçamento superior*/
+            padding: 20px;/*espaçamento interno*/
+            border: 2px solid #0a414b;
+            border-radius: 10px;
+            background: #ffffff;
+        }
+
+        footer {
+            background-color: #222222;
+        }
+
+        .social a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        header {
+            background-color: #222222;
+        }
